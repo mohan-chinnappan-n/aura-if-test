@@ -8,12 +8,7 @@
     -->
 
     <link href="/resource/bootstrap/" rel="stylesheet"/>
-    <!--
-    <link href="/resource/bootstrap336/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet"/>
-    <ltng:require scripts="/resource/bootstrap336/bootstrap-3.3.6/docs/assets/js/vendor/jquery.min.js"/>
-    <ltng:require scripts="/resource/bootstrap336/bootstrap-3.3.6/dist/js/bootstrap.min.js"/>
 
-    -->
 
 
 
