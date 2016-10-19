@@ -22,3 +22,6 @@ Document for aura:if tag:
 ## Demo ui:spinner
 
 ![alt tag](https://github.com/mohan-chinnappan-n/aura-if-test/blob/master/ui-spinner/demos/ui-spinner-tester-2.gif)
+
+
+* [ Reference for ui:spinner](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/aura_compref_ui_spinner.htm)
