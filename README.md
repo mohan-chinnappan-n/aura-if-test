@@ -29,6 +29,6 @@ Document for aura:if tag:
 ## Demo force:showToast
 
 
-![alt tag](https://github.com/mohan-chinnappan-n/aura-if-test/blob/master/ui-spinner/demos/toast-tester-1.gif.gif)
+![alt tag](https://github.com/mohan-chinnappan-n/aura-if-test/blob/master/ui-spinner/demos/toast-tester-1.gif)
 
 * [ Reference for force:showToast](https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/ref_force_showToast.htm)
