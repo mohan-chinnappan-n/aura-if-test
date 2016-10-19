@@ -1,0 +1,24 @@
+<aura:component>
+
+
+    <link href="/resource/bootstrap/" rel="stylesheet"/>
+
+    <aura:attribute name="appName" type="String" default="ui:spinner Tester App" />
+
+    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand"> {!v.appName}</a>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <button class='btn'>Updating Plan Info...<ui:spinner aura:id="spinner"/></button>
+        <ui:button class="btn btn-info" press="{!c.toggleSpinner}" label="Toggle Spinner" />
+
+    </div>
+</aura:component>
