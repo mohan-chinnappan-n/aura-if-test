@@ -1,5 +1,8 @@
-<aura:component>
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
 
+    <!--
+      https://developer.salesforce.com/docs/atlas.en-us.204.0.lightning.meta/lightning/components_config_for_app_builder.htm
+    -->
 
     <link href="/resource/bootstrap/" rel="stylesheet"/>
 
@@ -7,6 +10,14 @@
 
     <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
     <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
+
+
+    <aura:attribute name="greeting" type="String" default="Hello" access="global" />
+    <aura:attribute name="subject" type="String" default="Green World" access="global" />
+
+
+
+
 
     <div class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
@@ -18,7 +29,16 @@
 
     <div class='container'>
         <button class='btn'>Updating Plan Info...<ui:spinner aura:id="spinner"/></button>
+        <div class="badge badge-info">
+            <span class="greeting">{!v.greeting}</span>, {!v.subject}!
+        </div>
+        <hr/>
         <ui:button class="btn btn-info" press="{!c.toggleSpinner}" label="Toggle Spinner" />
+        <hr/>
+        <ui:button class='btn btn-success' press="{!c.showToast}" label="Show Toast" />
 
     </div>
+
+
+
 </aura:component>
