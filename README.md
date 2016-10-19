@@ -14,6 +14,11 @@ Document for aura:if tag:
 
 
 
-## Demo
+## Demo aura:if
 
 ![alt tag](https://github.com/mohan-chinnappan-n/aura-if-test/blob/master/demos/aura-if-tester.gif)
+
+
+## Demo ui:spinner
+
+![alt tag](https://github.com/mohan-chinnappan-n/aura-if-test/blob/master/ui-spinner/demos/ui-spinner-tester-2.gif)
