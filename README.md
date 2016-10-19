@@ -6,7 +6,7 @@
 This app explains how to use aura:if for conditional re-rendering of ui-elements in Lightning using aura:if tag.
 
 
-Document for aura-if tag: https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/aura_compref_aura_if.htm
+Document for aura:if tag: https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/aura_compref_aura_if.htm
 
 
 ## Demo
